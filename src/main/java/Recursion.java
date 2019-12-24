@@ -4,7 +4,7 @@ public class Recursion {
         if (number == 0){
             return 0;
         }
-        System.out.println(number);
+        System.out.print(number + " ");
         return printNumbersBefore(number - 1);
     }
 
